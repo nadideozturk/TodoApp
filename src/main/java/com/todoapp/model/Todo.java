@@ -24,8 +24,8 @@ public class Todo {
 	@Column(name="todo_id")
 	private int todo_id;
 	
-	@OneToMany(cascade = CascadeType.ALL)
-	private User user;
+//	@OneToMany(cascade = CascadeType.ALL)
+//	private User user;
 
 	
 	@Column(name="desc")
